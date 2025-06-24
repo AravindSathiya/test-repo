@@ -1,0 +1,14 @@
+cd ~/Desktop/Project/flask-app/
+   47  ls
+   48  git init
+   49  git remote add origin https://github.com/AravindSathiya/gcp-ci-cd-demo.git
+   50  git add .
+   51  git commit -m "Flask-app update"
+   52  git branch -M main
+   53  git push -u origin main
+   54  git add .github/workflows/deploy.yml
+   55  git commit -m "updated deploy.yml"
+   56  git push
+   57  git add .github/workflows/deploy.yml
+   58  git commit -m "changes updated"
+   59  git push
